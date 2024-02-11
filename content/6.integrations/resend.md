@@ -67,7 +67,7 @@ export default defineEventHandler(async (event) => {
     from: 'you@example.com',
     to: 'user@gmail.com',
     subject: 'hello world',
-    html: template,
+    html: template.html,
   }
 
   await resend.emails.send(options)
@@ -96,7 +96,7 @@ app.post('/api/send-email', async (req, res) => {
     from: 'you@example.com',
     to: 'user@gmail.com',
     subject: 'hello world',
-    html: template,
+    html: template.html,
   }
 
   await resend.emails.send(options)

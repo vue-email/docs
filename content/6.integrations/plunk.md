@@ -66,7 +66,7 @@ export default defineEventHandler(async (event) => {
   await plunk.emails.send({
     to: 'hello@useplunk.com',
     subject: 'Hello world',
-    body: template,
+    body: template.html,
   })
 
   return { message: 'Email sent' }
