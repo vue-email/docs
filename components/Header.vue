@@ -36,6 +36,7 @@ const { header } = useAppConfig()
           to="https://github.com/vue-email/vue-email"
           target="_blank"
           :label="stats && stats.stats && stats.stats.stars ? formatNumber(stats.stats.stars) : '...'"
+          class="hidden md:block"
           v-bind="$ui.button.secondary as any"
         />
       </UTooltip>
