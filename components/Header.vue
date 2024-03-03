@@ -25,7 +25,7 @@ const { header } = useAppConfig()
 
     <template #right>
       <UTooltip text="Search" :shortcuts="[metaSymbol, 'K']">
-        <UDocsSearchButton v-if="header?.search" :label="null" />
+        <UContentSearchButton v-if="header?.search" :label="null" />
       </UTooltip>
       <UTooltip :text="$colorMode.preference === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'">
         <UColorModeButton v-if="header?.colorMode" />
