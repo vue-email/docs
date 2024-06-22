@@ -1,0 +1,30 @@
+title: 'Vue Email - Build and send emails using Vue'
+description: Vue Email provides everything related to Building and sending emails using Vue. This includes components, render utilities, published under MIT License.
+navigation: false
+hero:
+  title: 'The next generation of writing [emails]{.text-primary}'
+  description: 'A collection of high-quality, unstyled components for creating beautiful emails using Vue and TypeScript.'
+  headline:
+    label: Vue Email v1 is out!
+    to: https://github.com/vue-email/vue-email/releases
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  links:
+    - label: Get started
+      icon: i-heroicons-rocket-launch-20-solid
+      to: '/getting-started'
+      size: xl
+features:
+  title: 'Build and send emails using :br [Vue and TypeScript.]{.text-primary}'
+  items:
+    - title: Rendering emails
+      description: Streamline the process of rendering and dispatching emails directly from your server.
+      icon: i-solar-server-2-bold-duotone
+      to: /introduction
+    - title: '15+ Components'
+      description: 'Simplify email creation by providing ready-made components, eliminating the need for table-based layouts and outdated markup.'
+      icon: i-solar-code-line-duotone
+      to: /components/html
+    - title: Tailwind CSS
+      description: Deliver visually stunning email templates with the incredible power of Tailwind CSS.
+      icon: i-solar-palette-round-line-duotone
+      to: /components/tailwind

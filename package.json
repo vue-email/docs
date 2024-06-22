@@ -1,0 +1,32 @@
+{
+  "name": "vue-email-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@iconify-json/ph": "^1.1.13",
+    "@iconify-json/solar": "^1.1.9",
+    "@iconify-json/heroicons": "^1.1.21",
+    "@iconify-json/simple-icons": "^1.1.106",
+    "@nuxt/content": "^2.13.0",
+    "@nuxt/fonts": "^0.7.0",
+    "@nuxt/image": "^1.7.0",
+    "@nuxt/ui-pro": "^1.3.0",
+    "nuxt": "^3.12.2",
+    "nuxt-og-image": "^3.0.0-rc.54"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^0.3.13",
+    "@nuxthq/studio": "^2.0.1",
+    "eslint": "^9.5.0",
+    "vue-tsc": "^2.0.22"
+  }
+}
