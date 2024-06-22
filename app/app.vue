@@ -24,8 +24,8 @@ useHead({
 useSeoMeta({
   titleTemplate: `%s - ${seo?.siteName}`,
   ogSiteName: seo?.siteName,
-  ogImage: 'https://docs-template.nuxt.dev/social-card.png',
-  twitterImage: 'https://docs-template.nuxt.dev/social-card.png',
+  ogImage: 'https://vuemail.net/social-preview.jpg',
+  twitterImage: 'https://vuemail.net/social-preview.jpg',
   twitterCard: 'summary_large_image'
 })
 
