@@ -6,7 +6,7 @@ hero:
   description: 'A collection of high-quality, unstyled components for creating beautiful emails using Vue and TypeScript.'
   headline:
     label: Vue Email v1 is out!
-    to: https://github.com/vue-email/vue-email/releases
+    to: https://github.com/vue-email/vue-email/releases/tag/v1.0.0
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
     - label: Get started
