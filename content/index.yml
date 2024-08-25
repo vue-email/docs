@@ -19,7 +19,7 @@ features:
     - title: Rendering emails
       description: Streamline the process of rendering and dispatching emails directly from your server.
       icon: i-solar-server-2-bold-duotone
-      to: /introduction
+      to: /getting-started/usage
     - title: '15+ Components'
       description: 'Simplify email creation by providing ready-made components, eliminating the need for table-based layouts and outdated markup.'
       icon: i-solar-code-line-duotone
